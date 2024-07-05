@@ -10,17 +10,11 @@ curl https://install.fuel.network | sh
 echo
 
 echo -e "${GREEN}Waiting 10 sec...${NC}"
-echo
 source /home/codespace/.bashrc
-echo
 
 sleep 10
 
-echo -e "${GREEN}Installing the latest Fuelup toolchain...${NC}"
 echo
-fuelup toolchain install latest
-echo
-
 echo -e "${GREEN}Setting the latest toolchain as default...${NC}"
 echo
 fuelup default latest
