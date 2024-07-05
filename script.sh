@@ -7,14 +7,16 @@ NC='\033[0m'
 echo -e "${GREEN}Downloading and running the Fuel Network installer...${NC}"
 echo
 curl https://install.fuel.network | sh
-sleep 5
+echo
+
+export PATH="$HOME/.fuelup/bin:$PATH"
+sleep 2
 echo
 
 echo -e "${GREEN}Waiting 5 sec...${NC}"
 source /home/codespace/.bashrc
 sleep 5
 
-echo
 echo -e "${GREEN}Setting the latest toolchain as default...${NC}"
 echo
 fuelup default latest
