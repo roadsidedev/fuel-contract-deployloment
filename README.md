@@ -8,6 +8,7 @@
 
 
 ## Deployment
+https://github.com/dxzenith/fuel-contract-deploy/assets/161211651/3a120540-457a-432e-a748-79cf7a08c859
 
 - This Script will only work on Codespace. Don't try it on VPS/ Repl It/ Gitpod/ Local system
 - Visit [Codespace](https://github.com/codespaces)
