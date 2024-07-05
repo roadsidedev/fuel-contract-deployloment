@@ -11,8 +11,8 @@ echo
 
 echo -e "${GREEN}Waiting 10 sec...${NC}"
 source /home/codespace/.bashrc
-
-sleep 10
+sleep 5
+export PATH="$HOME/.fuelup/bin:$PATH
 
 echo
 echo -e "${GREEN}Setting the latest toolchain as default...${NC}"
