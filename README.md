@@ -16,3 +16,5 @@
 ```bash
 wget https://raw.githubusercontent.com/dxzenith/fuel-contract-deploy/main/script.sh && chmod +x script.sh && ./script.sh
 ```
+- In the middle of the code, you will be asked :
+`Would you like fuelup-init to modify your PATH variable for you? (N/y)` . Make sure to enter `N`
